@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.CorpoPagina{
+    display: flex;
+    flex-direction: column;
+    min-height: 15vh;
+}
+
+.navbar img {
+    height: 25px;
+}
+
+.navbar {
+    background-color: #FB9048;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content img{
+    width: 500px;
+    height: auto;
+}
+
+.content div{
+    max-width: 500px;
+}
+
+/* Estilos para os títulos das seções */
+.content h1 {
+    padding: 20px;
+    color: #FB9048;
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+.content p {
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 1.5; 
+    margin-bottom: 10px;
+}
+  
+  
+  
+  
+  
+  
+/* Estilos para o link "Read More" */
+.read-more {
+    margin-left: 20px;
+    display: inline-block; 
+    padding: 8px 15px; 
+    color: #FB9048;
+    border: 2px solid #FB9048;
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+.read-more:hover {
+    background-color: #FB9048;
+    color: white;
+}
+  
+  
+  
+  
+  
+  
+  
+/* Footer - rodapé da página */
+footer {
+    background-color: #FB9048; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    width: 100%; 
+}
+  
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+  
+footer a:hover {
+    text-decoration: underline; 
+}
